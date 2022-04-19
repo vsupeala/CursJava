@@ -3,4 +3,6 @@ CursJava.iml
 /.metadata/
 CursJava/
 out/
-
+.classpath
+.project
+/bin/
