@@ -4,11 +4,18 @@ public class Tester {
 	
 	public String nume;
 	public int ratePerHour;
+	public int age;
 	
 	//constructor
 	
 	public Tester () {
 		
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
 	}
 	public Tester(String Prenume) {
 		nume = Prenume;
