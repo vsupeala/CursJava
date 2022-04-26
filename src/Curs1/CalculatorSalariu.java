@@ -10,6 +10,8 @@ public class CalculatorSalariu {
 
 		Tester tester1 = new Tester();
 		
+		//WebDriver driver = new ChromDriver();
+		
 		tester1.setNume("Oana");
 		tester1.setRatePerHour(25);
 		tester1.setAge(52);
