@@ -19,6 +19,8 @@ public class MethodExample {
 		
 		MethodExample sufragerie = new MethodExample();
 		MethodExample bucatarie = new MethodExample();
+		MethodExample hol = new MethodExample();
+
 		
 		System.out.println(sufragerie.calculateArea2(4, 5));
 		System.out.println(bucatarie.calculateArea2(7, 3));
@@ -27,7 +29,7 @@ public class MethodExample {
 		sufragerie.calculateArea(4,  5);
 		bucatarie.calculateArea(7,  3);
 		System.out.println(calculateTotal(sufragerie.nrTotal, bucatarie.nrTotal));
-
+		
 
 	}
 
@@ -43,6 +45,15 @@ public class MethodExample {
 	
 	public static int calculateTotal(int area1, int area2) {
 		int result = area1 + area2 ;
+		return result;
+	}
+	
+	public static int calculateTotal2(int...rooms) {  //varargs
+		int result = 0;
+		for(int room : rooms) {
+			result = result + room;			
+		}
+		
 		return result;
 	}
 }
