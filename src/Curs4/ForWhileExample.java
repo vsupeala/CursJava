@@ -2,7 +2,6 @@ package Curs4;
 
 import java.util.Scanner;
 
-import com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
 
 public class ForWhileExample {
 	
