@@ -35,9 +35,7 @@ public class SimulareLogin {
 		System.out.println("Maximum attempts reached. User blocked!");
 		}
 		
-		
-		
-
+	
 	}
 
 }
